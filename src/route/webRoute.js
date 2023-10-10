@@ -3,6 +3,7 @@ import newUser from "../controllers/userController.js"
 import homePage from "../controllers/homeController.js"
 
 const router = express.Router();
+
 const initWebRoute = (app) => {
   router.get("/home",homePage);
 //   router.get("/about", aboutController.aboutPage)
